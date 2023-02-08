@@ -1,0 +1,6 @@
+use this variable like any built-in step which accepts a block
+
+ex:
+    linux {
+        sh 'echo hello'
+    }
