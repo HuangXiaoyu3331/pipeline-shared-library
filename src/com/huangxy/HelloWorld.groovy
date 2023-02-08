@@ -1,5 +1,7 @@
 package com.huangxy
 
-def sh() {
-    sh 'echo hello world'
+class HelloWorld implements Serializable{
+    def sh() {
+        sh 'echo hello world'
+    }
 }
