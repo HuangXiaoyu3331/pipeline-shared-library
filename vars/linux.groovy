@@ -1,7 +1,7 @@
 package com.huangxy
 
 def call(Closure body) {
-    node('Linux') {
+    node('linux') {
         body()
     }
 }
