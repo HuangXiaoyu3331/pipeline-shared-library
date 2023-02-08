@@ -1,5 +1,5 @@
 def call(Closure body) {
-    node('ubuntu') {
+    node {
         body()
     }
 }
